@@ -13,5 +13,5 @@ data['people'].append({
     'segundo apellido': ''
 })
 
-with open('data2.txt', 'w') as outfile:
+with open('data2.json', 'w') as outfile:
     json.dump(data, outfile)
